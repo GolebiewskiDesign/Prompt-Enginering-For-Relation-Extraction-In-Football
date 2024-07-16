@@ -21,7 +21,7 @@ import community as community_louvain
 
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+os.environ["OPENAI_API_KEY"] =API_KEY #os.getenv("OPENAI_API_KEY")
 
 # Zero Shot Example
 llm = OpenAI(temperature=0.7)

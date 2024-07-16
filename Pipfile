@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+langchain = "*"
+langchain-community = "*"
+openai = "*"
+streamlit = "*"
+spacy = "*"
+networkx = "*"
+pyvis = "*"
+matplotlib = "*"
+scipy = "*"
+plotly-express = "*"
+python-louvain = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
